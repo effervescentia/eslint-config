@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-tkstr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/effervescentia/eslint-config",
+  "author": "Ben Teichman <ben.l.teichman@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "eslint-plugin-simple-import-sort": "^5.0.3"
+  },
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.1.1"
+  }
+}
